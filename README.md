@@ -6,13 +6,6 @@
 
 ---
 
-## 🎥 Video Demo
-
-Watch the wallet creation flow in action (10s):
-
-![Demo Video](assets/demo_video.webp)
-
----
 
 ## The Problem
 
