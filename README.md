@@ -1,20 +1,3 @@
-# The Dividend Factory (Chipnet Edition)
-
-> A decentralized dividend distribution system leveraging Bitcoin Cash's new Layla Upgrade opcodes for on-chain loop execution.
-
-**🌐 Live Demo:** [https://the-dividend-factory-2xnpet9lz-alperens-projects-e8a4fdab.vercel.app](https://the-dividend-factory-2xnpet9lz-alperens-projects-e8a4fdab.vercel.app)
-
----
-
-## The Problem
-
-Traditional dividend distribution to token holders faces significant challenges:
-
-- **Scalability:** Sending dividends to 1000+ holders requires 1000+ individual transactions
-- **Cost:** Each transaction incurs network fees, making small distributions uneconomical
-- **Centralization:** Off-chain scripts require trusted intermediaries to execute distributions
-- **Complexity:** Coordinating mass payouts requires complex infrastructure
-
 ## Our Solution
 
 The Dividend Factory uses Bitcoin Cash's **Layla Upgrade** to perform dividend calculations and distributions entirely on-chain using native loop opcodes (`OP_BEGIN`/`OP_UNTIL`). This enables:
