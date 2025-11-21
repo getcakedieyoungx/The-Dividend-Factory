@@ -4,7 +4,10 @@ This document demonstrates the full workflow of The Dividend Factory, a BCH Chip
 
 ## Demo Video
 
-![Full Demo Walkthrough](docs/demo.webp)
+<video width="100%" controls>
+  <source src="docs/demo.webp" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 *Complete interaction flow showing wallet creation, contract deployment, and distribution execution.*
 
@@ -97,8 +100,8 @@ contract DividendDistributor(int dividendPerToken) {
 
 **Local Setup:**
 ```bash
-git clone https://github.com/getcakedieyoungx/BCH-Blaze.git
-cd BCH-Blaze
+git clone https://github.com/getcakedieyoungx/The-Dividend-Factory.git
+cd The-Dividend-Factory
 npm install
 npm run dev
 ```
@@ -109,6 +112,6 @@ npm run dev
 
 **Track:** Chipnet (Layla Upgrade)  
 **Team:** getcakedieyoungx  
-**Repo:** [github.com/getcakedieyoungx/BCH-Blaze](https://github.com/getcakedieyoungx/BCH-Blaze)
+**Repo:** [github.com/getcakedieyoungx/The-Dividend-Factory](https://github.com/getcakedieyoungx/The-Dividend-Factory)
 
 This project demonstrates practical use of the new VM opcodes in a real-world dividend distribution scenario. No off-chain scripts, no trusted intermediaries - just pure on-chain logic.
